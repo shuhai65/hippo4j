@@ -54,4 +54,15 @@
         </dependency>
         <!-- Unit test end -->
     </dependencies>
+
+    <build>
+        <testResources>
+            <testResource>
+                <directory>src/test/resources</directory>
+                <includes>
+                    <include>**/*</include>
+                </includes>
+            </testResource>
+        </testResources>
+    </build>
 </project>
